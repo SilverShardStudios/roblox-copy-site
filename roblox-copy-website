@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>My Roblox Game Copy</title>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background: #0d1117;
+        color: white;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+
+    header {
+        background: #151b23;
+        padding: 20px;
+        font-size: 28px;
+        font-weight: bold;
+        border-bottom: 2px solid #30363d;
+    }
+
+    .game-card {
+        width: 300px;
+        background: #1c2229;
+        margin: 20px auto;
+        padding: 20px;
+        border-radius: 10px;
+        border: 1px solid #30363d;
+    }
+
+    .play-button {
+        background: #00aa00;
+        border: none;
+        color: white;
+        padding: 15px 25px;
+        font-size: 20px;
+        border-radius: 10px;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+
+    .play-button:hover {
+        background: #009400;
+    }
+
+    #gameOutput {
+        margin-top: 30px;
+        font-size: 22px;
+        color: #00ff00;
+    }
+</style>
+
+</head>
+<body>
+
+<header>Roblox Game Copy</header>
+
+<div class="game-card">
+    <h2>My Cool Roblox Game</h2>
+    <p>This is a simple copy-style preview of a Roblox game.</p>
+    <button class="play-button" onclick="playGame()">Play</button>
+</div>
+
+<div id="gameOutput"></div>
+
+<script>
+    function playGame() {
+        document.getElementById("gameOutput").innerText =
+            "Game is starting... (This is just a website imitation!)";
+    }
+</script>
+
+</body>
+</html>
